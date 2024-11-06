@@ -1,11 +1,11 @@
 #include <ESP8266WiFi.h>
 #include <ThingSpeak.h>
-#define IP "184.106.153.149"  
+#define IP "your_IP"  
 
 
-const char *ssid = "divya";
-const char *password = "hello123";
-const char *thingSpeakApiKey = "G22R3YTE42TEIWV5";
+const char *ssid = "your_wifi_id";
+const char *password = "your_wifi_passwd";
+const char *thingSpeakApiKey = "Thing_Speak_API_Key";
 
 const int sensorPin = A0;  // Analog pin to which the pulse sensor is connected
 int bpm;
@@ -46,10 +46,10 @@ int error;
 int panic;
 float Voltage;
 
-const char *ssid = "divya";
-const char *password = "hello123";
-const char *thingSpeakApiKey = "G22R3YTE42TEIWV5";
-String msg = "GET /update?key=G22R3YTE42TEIWV5"; 
+const char *ssid = "your_wifi_id";
+const char *password = "your_wifi_passwd";
+const char *thingSpeakApiKey = "Thing_Speak_API_Key";
+String msg = "GET /update?key=Thing_Speak_API_Key"; 
 
 WiFiClient client;
 

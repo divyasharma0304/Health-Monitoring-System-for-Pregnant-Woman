@@ -12,7 +12,6 @@ This project is an IoT-based portable health monitoring system designed to conti
 - [Usage](#usage)
 - [Code](#code)
 - [Future Improvements](#future-improvements)
-- [Contributors](#contributors)
 
 ## Overview
 The Health Monitoring System for Pregnant Women uses IoT technology to provide continuous monitoring and real-time data transmission of health parameters, accessible to healthcare professionals via a central server or mobile app. The system also includes emergency response capabilities, where pressing a panic button sends an alert to designated contacts.
